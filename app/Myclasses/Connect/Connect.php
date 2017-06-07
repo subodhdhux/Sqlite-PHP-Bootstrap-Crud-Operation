@@ -8,7 +8,8 @@ class Connect
 
     protected function __construct()
     {
-         $this->db_name = 'c:\sqlite\db\project.db';
+         //$this->db_name = 'c:\sqlite\db\project.db';
+         $this->db_name = 'project.db';
         
         if ($this->db === null) 
         {
