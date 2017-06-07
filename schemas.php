@@ -1,8 +1,6 @@
 <?php
 require_once "vendor/autoload.php";
 
-/*use Myclasses\Schema\Tables;
+use Myclasses\Schema\Tables;
 $tasks = new Tables();
-$tasks->Createtable();*/
-
-echo "Hi Herkou";
+$tasks->Createtable();

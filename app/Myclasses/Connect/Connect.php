@@ -13,7 +13,7 @@ class Connect
         
         if ($this->db === null) 
         {
-        	if (realpath($this->db_name)) {
+        	/*if (realpath($this->db_name)) {
         		$this->db = new \SQLite3($this->db_name);
         		
 			}
@@ -22,7 +22,9 @@ class Connect
 				$db = fopen($this->db_name, "w");
 				$this->db = new \SQLite3($this->db_name);
 				fclose($db);
-			}
+			}*/
+
+            $this->db = new \SQLite3($this->db_name);
         }
     }
 
