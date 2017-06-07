@@ -8,6 +8,8 @@ class Connect
 
     protected function __construct()
     {
+
+        die("I am here");
          //$this->db_name = 'c:\sqlite\db\project.db';
          $this->db_name = 'project.db';
         
