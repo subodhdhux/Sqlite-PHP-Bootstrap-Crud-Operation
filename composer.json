@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {"Myclasses\\": "app/Myclasses"},
+         "files": [
+            "functions/form.php"
+        ]
+    }
+}
