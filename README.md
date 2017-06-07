@@ -12,16 +12,16 @@ I have followed psr-4 coding standard for autoloading class in this project.
 
 database
 ---------------
-Database is connected with Connect.php inside app\Myclasses\Connect folder
-All Crud operation is done with Crud.php inside app\Myclasses\Crud folder
-Table schema is built with Table.php inside app\Myclasses\Schema folder
+Database is connected with Connect.php inside app\Myclasses\Connect folder  
+All Crud operation is done with Crud.php inside app\Myclasses\Crud folder  
+Table schema is built with Table.php inside app\Myclasses\Schema folder  
 
 validation
 ---------------
-Both client side and server side validation for from is used .
-Client side validation handel with jquery validation plugin
-Server side validation is handeled with Validation.php inside app\Myclasses\Validation
+Both client side and server side validation for from is has been implemented.  
+Client side validation handel with jquery validation plugin  
+Server side validation is handeled with Validation.php inside app\Myclasses\Validation  
 
 helper functions
 -------------------
-All helper functions are inside functions folder like form.php and general.php
+All helper functions are inside functions folder like form.php and general.php  
