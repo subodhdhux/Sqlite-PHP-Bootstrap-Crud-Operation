@@ -22,10 +22,10 @@ class Connect
         		$this->db = new \SQLite3($this->db_name);
 			}
 			else
-			{echo "Again here11";
-				$db = fopen($this->db_name, "w");
+			{    echo "Again here11";
+				//$db = fopen($this->db_name, "w");
 				$this->db = new \SQLite3($this->db_name);
-				fclose($db);
+				//fclose($db);
 			}
 
             $this->db = new \SQLite3($this->db_name);
